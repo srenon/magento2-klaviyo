@@ -152,7 +152,6 @@ class ViewedProduct extends Template
         if (!$this->imageUrl) {
             $this->imageUrl = $this->imageHelper
                 ->init($this->getProduct(), 'product_base_image')
-                ->setImageFile($_product_image->getFile())
                 ->getUrl();
         }
 
