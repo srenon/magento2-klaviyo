@@ -154,7 +154,6 @@ class ViewedProduct extends Template
                 ->init($this->getProduct(), 'product_base_image')
                 ->getUrl();
         }
-
         return $this->imageUrl;
     }
 
